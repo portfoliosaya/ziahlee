@@ -1,0 +1,328 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.backfoto {
+  height: 375px;
+  width: 100%;
+  background-image: url(img/back.jpg);
+  margin: auto;
+  background-size: cover;
+  background-position: 0 -200px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.box {
+  width: 100%;
+  height: 375px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.twt {
+  cursor: pointer;
+}
+
+.penghapus {
+  text-decoration: none;
+  color: white;
+}
+
+.samping {
+  display: flex;
+  padding-left: 300px;
+  padding-top: 10px;
+}
+
+.ind {
+  margin: 20px;
+  margin-top: -5px;
+  margin-left: 7px;
+}
+
+.linkKerja {
+  margin-top: 3px;
+}
+.pindahLink {
+  margin-left: 346px;
+}
+.fontsize {
+  font-size: 37px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.garisbawah {
+  margin-top: 17px;
+  width: 80%;
+  height: 5px;
+  background-color: azure;
+  margin-left: 100px;
+}
+
+.fix {
+  width: 100px;
+  height: 200px;
+}
+
+.stroke {
+  -webkit-text-stroke: 3px grey;
+}
+
+.border {
+  border: 3px solid white;
+}
+
+.ziahlee {
+  font-family: "Bungee Spice", cursive;
+}
+
+.fixfoto3 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/p3.jpeg);
+  background-size: cover;
+  background-position: 0 -100px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.fixfoto1 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/tpost.jpeg);
+  background-size: cover;
+  background-position: 0 0px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.fixfoto2 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/sains.jpeg);
+  background-size: cover;
+  background-position: 0 -100px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.fixfoto4 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/p4.jpeg);
+  background-size: cover;
+  background-position: 0 -100px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.fixfoto5 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/p5.jpeg);
+  background-size: cover;
+  background-position: 0 -100px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.fixfoto6 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/p6.jpeg);
+  background-size: cover;
+  background-position: 0 -100px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.fixfoto7 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/p7.jpeg);
+  background-size: cover;
+  background-position: 0 -100px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.fixfoto8 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/p8.jpeg);
+  background-size: cover;
+  background-position: 0 -100px;
+  /* border-top: 5px solid lightseagreen;
+  border-bottom: 5px solid green; */
+}
+
+.relativ {
+  width: fit-content;
+  height: 150px;
+  overflow: auto;
+}
+
+.relativ2 {
+  width: fit-content;
+  height: 400px;
+  overflow: scroll;
+}
+
+.bungkus {
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  border: 2px solid black;
+  background-color: rgb(41, 39, 39);
+  border-radius: 5px;
+}
+
+.bungkusH {
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  border: 2px solid black;
+  background-color: rgb(41, 39, 39);
+  border-radius: 5px;
+}
+
+.bungkusP {
+  width: 70%;
+  margin: auto;
+  padding: 50px;
+  border: 2px solid black;
+  background-color: rgb(41, 39, 39);
+  border-radius: 5px;
+}
+
+.Cbody {
+  height: 150px;
+}
+
+.textT {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
